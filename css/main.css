@@ -1,143 +1,24 @@
-Skip to content
 
-
-  
-Pull requests 
-Issues 
-Marketplace 
-Explore 
-
-
- 
-
-
-
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request. 
-Read the guide 
-
-
-jerushas2597 
-/
-myanimerag.github.io 
-Watch 
-1 
-Star 
-1 
-Fork 
-0 
-Code 
-Issues 0 
-Pull requests 0 
-Actions 
-Projects 0 
-Wiki 
-Security 
-Insights 
-
-Branch: master 
-myanimerag.github.io/css/main.css 
-Find file 
-Copy path 
- jerushas2597 Update main.css 
-330f148 5 hours ago 
-1 contributor 
-976 lines (141 sloc) 3.33 KB 
-Raw
-Blame
-History
 
 
 ul.tex {
-
-
-
   list-style-type: none;
-
-
-
   padding: 0;
-
-
-
   top: 0;
-
-
-
   overflow: hidden;
-
-
-
   background-color: #6900cc;
-
-
-
   text-align: center;
-
-
-
   width: 40%;
-
-
-
   margin: auto;
-
-
-
   display: flex; 
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 li {
 
-
-
-
-
-
-
   font-family: 'Merienda', cursive;
-
-
-
-
-
-
-
   text-align: center;
-
-
-
-
-
-
-
   font-size: 30px;
-
-
-
-
-
-
-
   }
-
-
-
-
-
 
 
 li a {
