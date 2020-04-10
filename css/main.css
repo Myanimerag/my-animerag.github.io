@@ -72,6 +72,10 @@ padding: 1.5px 10px;
 display: block;
 }
 
+.atitle {
+  font-family: 'Fredericka the Great', cursive;
+}
+
   .top {
  margin-bottom: -85px;
 }
