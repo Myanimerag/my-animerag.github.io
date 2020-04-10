@@ -26,7 +26,7 @@ title: Tomoki Ken
 </ul>
 
 	<ul class="posts home">
-		<h1 class="title"> My Lists</h1>
+		<h1 class="atitle">My Lists</h1>
 		<table class="sortable main">
       <thead>
         <tr>
@@ -36,8 +36,8 @@ title: Tomoki Ken
       </thead>
       <tbody>
         <tr>
-          <td class="a">A Kite</td>
-          <td class="score">3★</td>
+          <td class="a">{{ post.title }}e</td>
+          <td class="score">{{ post.date | date_to_string }}</td>
         </tr>
         <tr>
           <td class="a">Bfro Samurai</td>
