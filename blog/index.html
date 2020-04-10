@@ -1,11 +1,20 @@
 ---
 layout: default
-title: Jerusha Stewart
+title: Tomoki Ken
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+	
+<ul class="my">
+<li id="lists" class="my">Lists</li>
+<li id="recommend" class="my">Recommendations</li>
+<li id="years" class="my">Years</li>
+</ul>
+
+	<ul class="posts home">
+<h1>{{ page.title }}</h1>
+	<div class="posts">
 
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
-	</ul>
+	</div>
+</ul>	
