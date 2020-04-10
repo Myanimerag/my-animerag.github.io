@@ -79,8 +79,7 @@ display: block;
 
 body {
 background-color: #3c0a76;
-height: 100%;
-background-image: linear-gradient(to right, white, #b67bf9, rgba(67, 6, 136, 0.59));
+background: linear-gradient(white, #c699fa, #8829f5, #4f08a1, #43008f);
 } 
 
 .title {
