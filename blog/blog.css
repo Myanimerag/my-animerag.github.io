@@ -6,7 +6,7 @@ table {
   width: 600px;
 }
 th {
-  background-color: #245E83;
+  background-color: #8a24ff;
   color: #e8e8e8;
   padding: 9.5px 21px;
   text-transform: uppercase;
@@ -17,12 +17,12 @@ td {
   border: 0 solid #eee;
   padding: 9px 21px;
   border-collapse: collapse;
-  background-color: #7C95A7;
+  background-color: ;
   font-size: 16px;
   border-bottom: 1px solid #7C95A7;
 }
 tr:hover td {
-  background-color: #455990;
+  background-color: #cf75ff;
   border-bottom: 1px solid #99ccff;
   color: #f8f8f8;
 }
