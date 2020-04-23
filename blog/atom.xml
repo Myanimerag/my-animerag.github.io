@@ -21,6 +21,11 @@ layout: feed
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
 			<id>http://jerushas2597.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
+			<title>{{ lists.title }}</title>
+			<link href="http://jerushas2597.github.io{{ lists.url }}"/>
+			<updated>{{ lists.date | date_to_xmlschema }}</updated>
+			<id>http://jerushas2597.github.io{{ lists.id }}</id>
+			<content type="html">{{ lists.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
 
